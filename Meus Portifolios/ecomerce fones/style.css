@@ -47,11 +47,11 @@ header{
     margin-right: 5px;
 }
 
-.navbar{
+#navbar{
     display: flex;
 }
 
-.navbar a{
+#navbar a{
     color: var(--outher-color);
     font-size: var(--p-font);
     font-weight: 500;
@@ -59,7 +59,7 @@ header{
     transition: a .55s ease;
 }
 
-.navbar a:hover{
+#navbar a:hover{
     color: var(--main-color);
 }
 
