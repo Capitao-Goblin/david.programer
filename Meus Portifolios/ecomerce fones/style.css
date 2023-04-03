@@ -41,7 +41,7 @@ header{
     font-weight: bold;
 }
 
-.logo i{
+.logo span{
     color: var(--main-color);
     font-size: 32px;
     margin-right: 5px;
