@@ -157,6 +157,10 @@ header{
     margin-right: 10rem;
 }
 
+.nav4 li a{
+    color: var(--bg-color);
+}
+
 #btn-email{
-    margin-right: 2rem;
+    margin-right: 4rem;
 }
