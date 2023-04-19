@@ -120,7 +120,10 @@ header{
     width: 100%;
 }
 
-
+span .btn{
+    margin-left: 35%;
+    cursor: pointer;
+}
 
 
 
@@ -143,10 +146,10 @@ header{
     justify-content: space-between;
 }
 
-.coisas-final img{
+/* .coisas-final img{
     width: 285px;
     height: 223px;
-}
+} */
 
 .nav4{
     display: flex;
@@ -163,4 +166,126 @@ header{
 
 #btn-email{
     margin-right: 4rem;
+}
+
+
+/* login */
+
+.text-login h1{
+    color: var(--bg-color);
+    font-size: 23px;
+    text-align: center;
+}
+
+.text-login p{
+    color: #69727b;
+    font-size: 13px;
+    text-align: center;
+}
+
+.text-login a{
+    color: #69727b;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-center a{
+    color: #3d4246;
+}
+
+.btn{
+    background-color: black;
+    color: var(--text-color);
+    border: 1px solid transparent;
+    border-radius: 2px;
+    padding: 10px;
+    font-size: 13px;
+    display: inline-block;
+    width: auto;
+    margin-top: 1rem;
+}
+
+#costumer_login{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+#costumer_login label{
+    color: #3d4246;
+}
+
+input[type="email" i]{
+    padding-right: 20rem;
+    padding-top: 0.4rem;
+}
+
+input[type="text"i]{
+    padding-right: 20rem;
+    padding-top: 0.4rem;
+}
+
+input[type="submit"]{
+    cursor: pointer;
+}
+
+label{
+    line-height: 2rem;
+}
+
+#criar_conta h1{
+    color: var(--bg-color);
+    font-size: 23px;
+    text-align: center;
+}
+
+#criar_conta p{
+    color: #69727b;
+    font-size: 13px;
+    text-align: center;
+}
+
+p a#costumer_register {
+    background: black;
+    color: #fff;
+    padding: 16px;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+#criar_conta {
+    background-color: #f2f2f2;
+    padding: 40px 15px 55px;
+    border-top: #d00000 solid;
+    margin-top: 25px;
+}
+
+.esticarkk{
+    margin-top: 2rem;
+}
+
+/* cadastro */
+
+.text-cad h1{
+    color: var(--bg-color);
+    font-size: 23px;
+    text-align: center;
+}
+
+.text-cad p{
+    color: #69727b;
+    font-size: 13px;
+    text-align: center;
+}
+
+.text-cad a{
+    color: #69727b;
+}
+
+.text-cad .btn{
+    margin-left: 50%;
 }
