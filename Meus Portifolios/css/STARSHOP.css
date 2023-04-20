@@ -339,3 +339,68 @@ p a#costumer_register {
 .drop-itens i{
     font-size: 23px;
 }
+
+/* wishilist */
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    letter-spacing: .7px;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+.text-wish{
+    color: #3d4246;
+}
+
+.text-wish h1{
+    font-size: 23px;
+    text-align: center;
+    padding-top: 6rem;
+}
+
+.credit-strip {
+    background-color: #f2f2f2;
+    padding: 10px 60px;
+    border-top: #e60000 solid 7px;
+}
+
+.credit-strip img {
+    max-width: 240px;
+}
+
+.credit-strip p {
+    float: right;
+    font-size: 12px;
+    line-height: 28px;
+    color: #69727b;
+}
+
+/* cart */
+
+.empyte-page {
+    padding: 125px 55px;
+    text-align: center;
+    margin-bottom: -7rem;
+}
+
+.empyte-page h1{
+    color: #3d4246;
+}
+
+.empyte-page p{
+    color: #69727b;
+    margin-top: 1rem;
+}
+
+#btn-cart{
+    margin-left: 45%;
+}
+
+#btn-cart i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-color);
+    font-size: 23px;
+}
