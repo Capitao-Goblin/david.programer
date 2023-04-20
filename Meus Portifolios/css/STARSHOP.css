@@ -123,6 +123,8 @@ header{
 span .btn{
     margin-left: 35%;
     cursor: pointer;
+    margin-left: 0rem;
+    margin-top: 0rem;
 }
 
 
@@ -166,6 +168,7 @@ span .btn{
 
 #btn-email{
     margin-right: 4rem;
+    display: flex;
 }
 
 
@@ -288,4 +291,51 @@ p a#costumer_register {
 
 .text-cad .btn{
     margin-left: 50%;
+}
+
+/* drop */
+
+.new-drop{
+    background-color: #dadddf;
+    color: #3d4246;
+    height: 60px;
+}
+
+.new-drop p{
+    font-size: 13px;
+    text-align: center;
+    padding-top: 1.5rem;
+}
+
+.drop-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.drop-container img:hover{
+    transform: scale(0.9) translateY(5px);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.drop-itens{
+    background-color: var(--bg-color);
+}
+
+.drop-itens img{
+    width: 250px;
+    height: auto;
+}
+
+.drop-itens p, h6, i{
+    color: var(--main-color);
+}
+
+.drop-itens i{
+    font-size: 23px;
 }
